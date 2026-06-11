@@ -311,7 +311,7 @@ body.no-scroll {
 .card-left {
     left: 40px;
     top: 45%;
-    width: 440px;
+    width: 320px;
     transform: translateY(-50%) rotate(-3deg);
 }
 
@@ -326,7 +326,7 @@ body.no-scroll {
 .card-right {
     right: 40px;
     bottom: 15%;
-    width: 360px;
+    width: 300px;
     transform: rotate(3deg);
 }
 
@@ -652,6 +652,17 @@ body.no-scroll {
 }
 
 /* Mobile Responsiveness Improvements */
+
+@media (max-width: 1400px) {
+    .card-left {
+        left: 20px;
+        width: 250px;
+    }
+    .card-right {
+        right: 20px;
+        width: 230px;
+    }
+}
 
 @media (max-width: 1200px) {
     .navbar {
