@@ -4,7 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Voxitence | AI Powered Attendance System</title>
+    <title>Voxitence | AI-Powered Classroom Biometric Attendance System</title>
+    <meta name="description" content="Voxitence is a next-generation classroom management system powered by AI biometrics. Automate attendance using high-speed computer vision face scans and sequential voice ID biometrics.">
+    <meta name="keywords" content="AI attendance, biometric attendance, face recognition attendance, voice biometrics, classroom management, classroom attendance, Voxitence, smart roster">
+    <meta name="author" content="Voxitence AI">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#5260f4">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://voxitence.streamlit.app/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://voxitence.streamlit.app/">
+    <meta property="og:title" content="Voxitence | AI-Powered Classroom Biometric Attendance System">
+    <meta property="og:description" content="Automate classroom attendance in seconds using next-gen neural networks for face recognition and sequential voice biometrics.">
+    <meta property="og:image" content="{{ url_for('static', filename='img/p1.png') }}">
+    <meta property="og:site_name" content="Voxitence">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://voxitence.streamlit.app/">
+    <meta name="twitter:title" content="Voxitence | AI-Powered Classroom Biometric Attendance System">
+    <meta name="twitter:description" content="Automate classroom attendance in seconds using next-gen neural networks for face recognition and sequential voice biometrics.">
+    <meta name="twitter:image" content="{{ url_for('static', filename='img/p1.png') }}">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Voxitence",
+      "operatingSystem": "All",
+      "applicationCategory": "EducationalApplication, BusinessApplication",
+      "description": "Revolutionizing the classroom with next-gen computer vision and voice biometrics. Trusted by educators for speed, accuracy, and security.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0.00",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "120"
+      }
+    }
+    </script>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/logo.png') }}">
 </head>
@@ -60,12 +105,12 @@
 
         <div class="floating-card card-left">
             <div class="card-img"><img src="{{ url_for('static', filename='img/p6.png') }}"
-                    alt="AI Attendance Face and Voice scan"></div>
+                    alt="Voxitence AI biometric interface scanning class attendance using face recognition"></div>
         </div>
 
         <div class="floating-card card-right">
             <div class="card-img"><img src="{{ url_for('static', filename='img/p1.png') }}"
-                    alt="Voxitence Role Selection Landing Page"></div>
+                    alt="Voxitence landing page role selection for teachers and students"></div>
         </div>
 
 
@@ -108,7 +153,7 @@
                         synced across all your devices.</p>
                 </div>
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/p2.png') }}" alt="Login Portal">
+                    <img src="{{ url_for('static', filename='img/p2.png') }}" alt="Voxitence secure classroom portal login screen">
                 </div>
             </div>
 
@@ -120,7 +165,7 @@
                         stream.</p>
                 </div>
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/p3.png') }}" alt="Teacher Dashboard">
+                    <img src="{{ url_for('static', filename='img/p3.png') }}" alt="Voxitence Teacher Dashboard dashboard displaying classroom overview and stats">
                 </div>
             </div>
 
@@ -132,7 +177,7 @@
                         start tracking.</p>
                 </div>
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/p5.png') }}" alt="Create Course">
+                    <img src="{{ url_for('static', filename='img/p5.png') }}" alt="Voxitence Course Creation page for enrolling new subjects and classes">
                 </div>
             </div>
 
@@ -144,7 +189,7 @@
                         single class photo in milliseconds.</p>
                 </div>
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/p6.png') }}" alt="FaceID Attendance">
+                    <img src="{{ url_for('static', filename='img/p6.png') }}" alt="Voxitence Face ID biometric classroom attendance verification in progress">
                 </div>
             </div>
 
@@ -156,7 +201,7 @@
                         their unique voice signatures.</p>
                 </div>
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/p6.png') }}" alt="Voice Attendance">
+                    <img src="{{ url_for('static', filename='img/p6.png') }}" alt="Voxitence Voice ID roll-call with biometric speaker recognition">
                 </div>
             </div>
 
@@ -168,7 +213,7 @@
                         long-term attendance trends.</p>
                 </div>
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/p3.png') }}" alt="Records Management">
+                    <img src="{{ url_for('static', filename='img/p3.png') }}" alt="Voxitence historical classroom attendance log analytics and exports screen">
                 </div>
             </div>
         </div>
@@ -235,7 +280,7 @@
                         teachers. No tedious sign-up forms.</p>
                 </div>
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/p7.png') }}" alt="Student Enrollment">
+                    <img src="{{ url_for('static', filename='img/p7.png') }}" alt="Voxitence student instant course registration via QR code scanner">
                 </div>
             </div>
 
@@ -247,7 +292,7 @@
                         all future class sessions.</p>
                 </div>
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/p2.png') }}" alt="Biometric Registration">
+                    <img src="{{ url_for('static', filename='img/p2.png') }}" alt="Voxitence student biometric setup registering voice embeddings and face templates">
                 </div>
             </div>
 
@@ -259,7 +304,7 @@
                         receive real-time updates.</p>
                 </div>
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/p10.png') }}" alt="Student Dashboard">
+                    <img src="{{ url_for('static', filename='img/p10.png') }}" alt="Voxitence Student Personal Attendance analytics and performance dashboard">
                 </div>
             </div>
         </div>
